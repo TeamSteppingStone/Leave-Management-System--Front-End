@@ -49,7 +49,7 @@ function App() {
 
             <Switch>
               
-              <Route exact path="/test" component={LeaveDashboard} />
+              <Route exact path="/" component={LeaveDashboard} />
               <Route exact path="/requestLeave" component={RequestLeave} />
               <Route exact path="/leaveHistory" component={LeaveHistory} />
               <Route exact path="/lieuCarriforward" component={LieuLeave} />
