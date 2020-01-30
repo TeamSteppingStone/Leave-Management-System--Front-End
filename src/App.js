@@ -7,7 +7,9 @@ import Footer from './layout/footer';
 import LeaveDashboard from './views/leave-system/leave-dashboard';
 
 import LeaveHistory from './views/leave-system/leave-history';
-import LieuLeave from '../src/views/leave-system/lieu-leave-request/leave-lieu';
+// import EmployeeLieuLeaveHistory from '../src/views/leave-system/lieu-leave-request/employee-lieu-leave-history';
+// import LieuLeave from '../src/views/leave-system/lieu-leave-request/leave-lieu'
+import LieuCarryforward from '../src/views/leave-system/lieuCarryforward';
 import ManageLeaveDashBoard from './views/leave-system/manage-leave-dashboard';
 import ManageLeaveLieu from './views/leave-system/manage-lieu-leave';
 import ManageCarryforward from './views/leave-system/manage-carryforward';
@@ -17,7 +19,7 @@ import Role from './views/user/role';
 
 
 import ManageIndivitualLeaveHistory from './views/leave-system/manage-indivitual-leave-history';
-import CarryForwardLeaveHistory from './views/leave-system/components/carry-forward-leave-history';
+// import CarryForwardLeaveHistory from './views/leave-system/components/carry-forward-leave-history';
 
 import {Provider} from 'react-redux';
 import store from './store';
@@ -48,11 +50,10 @@ function App() {
           <div className="container-fluid px-xl-5">
 
             <Switch>
-              
               <Route exact path="/test" component={LeaveDashboard} />
               <Route exact path="/requestLeave" component={RequestLeave} />
               <Route exact path="/leaveHistory" component={LeaveHistory} />
-              <Route exact path="/lieuCarriforward" component={LieuLeave} />
+              <Route exact path="/lieuCarriforward" component={LieuCarryforward} />
               <Route exact path="/manageLeaveDashboard" component={ManageLeaveDashBoard} />
               <Route exact path="/manageLeaveRequests" component={ManageProcessLeave} />
               <Route exact path="/manageLeaveLeiuLeave" component={ManageLeaveLieu} />
