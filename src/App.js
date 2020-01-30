@@ -36,18 +36,23 @@ function App() {
   return (
     <Provider store={store}>
     <div>
+    
       <Header />
       <div className="d-flex align-items-stretch">
+        
+        
         <SideBar />
         <div className="page-holder w-100 d-flex flex-wrap">
+
+        
           <div className="container-fluid px-xl-5">
 
             <Switch>
-              {/* <Route exact path="/"component={Login}/> */}
-              <Route exact path="/" component={LeaveDashboard} />
+              
+              <Route exact path="/test" component={LeaveDashboard} />
               <Route exact path="/requestLeave" component={RequestLeave} />
               <Route exact path="/leaveHistory" component={LeaveHistory} />
-              <Route exact path="/lieuLeave" component={LieuLeave} />
+              <Route exact path="/lieuCarriforward" component={LieuLeave} />
               <Route exact path="/manageLeaveDashboard" component={ManageLeaveDashBoard} />
               <Route exact path="/manageLeaveRequests" component={ManageProcessLeave} />
               <Route exact path="/manageLeaveLeiuLeave" component={ManageLeaveLieu} />
@@ -59,18 +64,18 @@ function App() {
               <Route exact path="/indivitualLeaveHistory" component={ManageIndivitualLeaveHistory}/>
               <Route exact path="/leaveAllocation" component={ManageLeaveAllocation} />
               <Route exact path="/recuitmentType" component={RecuitmentType}/>
-              <Route exact path="/designation" component={ManageDesignation}/>
-
-              
+              <Route exact path="/designation" component={ManageDesignation}/>            
             </Switch>
 
           </div>
           <Footer />
         </div>
       </div>
-      {/* <Login/> */}
+      
       </div>
+      
       </Provider>
+      
   );
 }
 

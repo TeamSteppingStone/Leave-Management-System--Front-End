@@ -15,9 +15,9 @@ class SideBar extends Component {
               <ul className="sidebar-menu list-unstyled border-left border-primary border-thick">
                 <li className="sidebar-list-item"><Link to="/" className="sidebar-link text-muted pl-lg-5">Leave Dashboard</Link></li>
                 <li className="sidebar-list-item"><Link to="/requestLeave" className="sidebar-link text-muted pl-lg-5">Request Leave</Link></li>
-                <li className="sidebar-list-item"><Link to="/lieuLeave" className="sidebar-link text-muted pl-lg-5">Lieu Leave</Link></li>
+                <li className="sidebar-list-item"><Link to="/lieuCarriforward" className="sidebar-link text-muted pl-lg-5">Lieu/Carriforward</Link></li>
                 <li className="sidebar-list-item"><Link to="/leaveHistory" className="sidebar-link text-muted pl-lg-5">Leave History</Link></li>
-                <li className="sidebar-list-item"><Link to="/carryforward" className="sidebar-link text-muted pl-lg-5">Carry Forward</Link></li>
+                
 
 
               </ul>
