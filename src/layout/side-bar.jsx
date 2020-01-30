@@ -28,7 +28,7 @@ class SideBar extends Component {
           <div id="page2" className="collapse">
               <ul className="sidebar-menu list-unstyled border-left border-primary border-thick">
                 <li className="sidebar-list-item"><Link to="/recuitmentType" className="sidebar-link text-muted pl-lg-5">Recuitment Type</Link></li>
-                <li className="sidebar-list-item"><Link to="/designation" className="sidebar-link text-muted pl-lg-5">Designation</Link></li>
+                {/* <li className="sidebar-list-item"><Link to="/designation" className="sidebar-link text-muted pl-lg-5">Designation</Link></li> */}
               </ul>
               </div>
           </li>
@@ -50,7 +50,7 @@ class SideBar extends Component {
           <li className="sidebar-list-item"><a href="#" data-toggle="collapse" data-target="#page4" aria-expanded="false" aria-controls="page4" className="sidebar-link text-muted"><i className="fas fa-users-cog mr-3 text-gray"></i><span>Manage User</span></a>
             <div id="page4" className="collapse">
               <ul className="sidebar-menu list-unstyled border-left border-primary border-thick">
-                <li className="sidebar-list-item"><Link to="/manageRole" className="sidebar-link text-muted pl-lg-5">Role</Link></li>
+                {/* <li className="sidebar-list-item"><Link to="/manageRole" className="sidebar-link text-muted pl-lg-5">Role</Link></li> */}
                 <li className="sidebar-list-item"><Link to="/manageUser" className="sidebar-link text-muted pl-lg-5">User List</Link></li>
               </ul>
             </div>
