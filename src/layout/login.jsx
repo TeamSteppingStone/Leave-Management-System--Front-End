@@ -6,15 +6,15 @@ class Login extends Component{
         return(
           <div>
          <div class="col-12 col-lg-2 ml-left mb-12 mb-lg-12 ">
-          <div class="pr-lg-12"><img src="assets/img/New Project (1).png" alt="" class="img-fluid"/></div>
+          <div class="pr-lg-12"><img src="assets/img/New Project (1).png" alt="" class="img-fluid"/></div> 
        </div>
             <div class="page-holder d-flex align-items-center ">
            
             <div class="container  ">
                 
               <div class="row align-items-center py-10">
-                <div class="col-5 col-lg-7 mx-auto mb-5 mb-lg-10">
-                  <div class="pr-lg-5"><img src="assets/img/New Project (6).png" alt="" class="img-fluid"/></div>
+                <div class="col-7 col-lg-5 mx-auto mb-5 mb-lg-10">
+                  <div class="pr-lg-5"><img src="assets/img/LMS Logo.png" alt="" class="img-fluid"/></div>
                 </div>
                 <div class="col-lg-5 px-lg-4">
                 
@@ -32,7 +32,7 @@ class Login extends Component{
                         <label for="customCheck1" class="custom-control-label">Remember Me</label>
                       </div>
                     </div>
-                    <Link to="/" ><button type="submit" class="btn btn-primary shadow px-5">Log in</button></Link>
+                    <Link to="/home" ><button type="submit" class="btn btn-primary shadow px-5">Log in</button></Link>
                   </form>
                 </div>
               </div>

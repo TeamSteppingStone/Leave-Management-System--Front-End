@@ -35,7 +35,6 @@ class EmployeeLieuLeaveHistory extends Component {
 }
 const mapStateToProps = state => ({
     lieuLeaveRequests: state.lieuLeaveRequestStore.lieuLeaveRequests
-
 });
 const mapDispatchToProps = dispatch => ({
     getLieuLeave: () => dispatch(getLieuLeave())

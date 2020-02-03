@@ -41,7 +41,7 @@ export default class ApplyCarryforwardLeave extends Component {
                     <Form.Row>
                         <div class="d-flex justify-content-center">
                         <Button variant="primary" type="submit">
-                        Submit
+                        Carriforward
                         </Button> 
                         </div>
                         </Form.Row>

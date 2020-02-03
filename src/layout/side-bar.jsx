@@ -13,7 +13,7 @@ class SideBar extends Component {
           <li className="sidebar-list-item"><a href="#" data-toggle="collapse" data-target="#page1" aria-expanded="false" aria-controls="page1" className="sidebar-link text-muted"><i className="fas fa-th-large mr-3 text-gray"></i><span>Leave</span></a>
             <div id="page1" className="collapse">
               <ul className="sidebar-menu list-unstyled border-left border-primary border-thick">
-                <li className="sidebar-list-item"><Link to="/" className="sidebar-link text-muted pl-lg-5">Leave Dashboard</Link></li>
+                <li className="sidebar-list-item"><Link to="/leave" className="sidebar-link text-muted pl-lg-5">Leave Dashboard</Link></li>
                 <li className="sidebar-list-item"><Link to="/requestLeave" className="sidebar-link text-muted pl-lg-5">Request Leave</Link></li>
                 <li className="sidebar-list-item"><Link to="/lieuCarriforward" className="sidebar-link text-muted pl-lg-5">Lieu/Carriforward</Link></li>
                 <li className="sidebar-list-item"><Link to="/leaveHistory" className="sidebar-link text-muted pl-lg-5">Leave History</Link></li>
